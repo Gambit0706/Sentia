@@ -1,6 +1,4 @@
-# Sentia Assessment
-
-# Nodejs web application
+# Sentia Assessment (Nodejs application Migration to Azure)
 
 Sample Nodejs web application built on Azure WEeb app service (container)
 
