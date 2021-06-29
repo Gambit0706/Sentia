@@ -5,7 +5,8 @@ Sample Nodejs web application built on Azure WEeb app service (container)
 ## Assumption Made
 
 - Azure Migrate Assessment to web app is all positive
-- Simple application with not much business driven logic and done not reruire mix/match of various technology
+- Does not need full fledged Orchestration (AKS) or full control (VMs)
+- 
 
 
 ### Running
