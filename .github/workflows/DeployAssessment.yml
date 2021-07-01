@@ -7,23 +7,27 @@ on:
 
 
 env:
-  APPNAME: chaostrymeoutsampled
+  APPNAME: sentiawebappassess
   APPLICATIONPATH: Application
-  HOSTINGPLAN: chaostrymeoutsampled
+  HOSTINGPLAN: sentiawebappassess
   DOCKERFILEPATH: "Application"
   REGISTRYSKU: "Standard"
-  REGISTRYNAME: "chaostrymeoutsampledacr"
+  REGISTRYNAME: "sentiawebappassessacr"
   REGISTRYLOCATION: "West Europe"
-  IMAGENAME: "chaostrymeoutsampled6a75"
-  RESOURCEGROUPNAME: chaostrymeoutsampled-rg
+  IMAGENAME: "sentiawebappassess6a75"
+  RESOURCEGROUPNAME: sentiawebappassess-rg
   LOCATION: West Europe
   APPINSIGHTSLOCATION: West Europe
   SUBSCRIPTIONID: e0405662-5d40-4a9d-83c8-f7a279fbdbbc
   SKU: S1 Standard
   NODE_VERSION: 8.11.1
-  DATABASEACCOUNTID: "chaostrymeoutsampled"
+  DATABASEACCOUNTID: "sentiawebappassess"
   DATABASELOCATION: "westeurope"
-  CACHENAME: "chaostrymeoutsampled"
+  CACHENAME: "sentiawebappassess"
+  FRONTDOORNAME: "sentiawebappassess"
+  BACKENDADRESS: "sentiawebappassess..azurewebsites.net"
+  CACHENAME: "sentiawebappassess"
+  CDNNAME: "sentiawebappassess"
 
 jobs:
   build:

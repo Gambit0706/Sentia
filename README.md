@@ -7,13 +7,14 @@ Sample Nodejs web application built on Azure WEeb app service (container)
 - Azure Migrate Assessment to web app is all positive
 - Does not need full fledged Orchestration (AKS) or full control (VMs)
 - Azure Elastic Service can fulfill the log requirement
+- Azure Migrate and Azure Migrate DB tool will be used for migration
 
 ## Project Timeline
 
  - Understanding node.js full stack web app architecture -- 3 hours
- - Planning and designing Architecture in Azure -- 4 hours
- - Deploying Solution in Aure and creating ARM (IaC) -- 3 hours
- - Elastic Search understanding -- 2hours
+ - Planning and designing Architecture in Azure -- 3 hours
+ - Deploying Solution in Aure and creating ARM (IaC) -- 4 hours
+ - Elastic Search understanding -- 2 hours
 
 ## Running
 
