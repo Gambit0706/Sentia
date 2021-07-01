@@ -23,6 +23,7 @@ env:
   NODE_VERSION: 8.11.1
   DATABASEACCOUNTID: "chaostrymeoutsampled"
   DATABASELOCATION: "westeurope"
+  CACHENAME: "chaostrymeoutsampled"
 
 jobs:
   build:
@@ -91,7 +92,7 @@ jobs:
         subscriptionId: ${{ env.SUBSCRIPTIONID }}
         resourceGroupName: ${{ env.RESOURCEGROUPNAME }}
         template: ./ArmTemplates/container-webapp-template.json
-        parameters: webAppName="${{ env.APPNAME }}" hostingPlanName="${{ env.HOSTINGPLAN }}" sku="${{ env.SKU }}" appInsightsLocation="${{ env.APPINSIGHTSLOCATION }}" registryName="${{ env.REGISTRYNAME }}" imageName="${{ env.IMAGENAME }}" registryLocation="${{ env.REGISTRYLOCATION }}" registrySku="${{ env.REGISTRYSKU }}"  databaseAccountId="${{ env.DATABASEACCOUNTID }}" databaseAccountLocation="${{ env.DATABASELOCATION }}"
+        parameters: webAppName="${{ env.APPNAME }}" hostingPlanName="${{ env.HOSTINGPLAN }}" sku="${{ env.SKU }}" appInsightsLocation="${{ env.APPINSIGHTSLOCATION }}" registryName="${{ env.REGISTRYNAME }}" imageName="${{ env.IMAGENAME }}" registryLocation="${{ env.REGISTRYLOCATION }}" registrySku="${{ env.REGISTRYSKU }}"  databaseAccountId="${{ env.DATABASEACCOUNTID }}" databaseAccountLocation="${{ env.DATABASELOCATION }}" cacheName="${{ env.CACHENAME }}"
 
     - name: Fetch connection strings
       id: getConnectionStrings
