@@ -140,26 +140,6 @@
                 "databaseAccountOfferType": "Standard",
                 "name": "[parameters('databaseAccountId')]"
             }
-        },
-		{
-            "name": "[parameters('cacheName')]",
-            "type": "Microsoft.Cache/redis",
-            "apiVersion": "2020-06-01",
-            "location": "[resourceGroup().location]",
-            "dependsOn": [],
-            "properties": {
-                "sku": {
-                    "name": "Standard",
-                    "family": "C",
-                    "capacity": 1
-                },
-                "redisConfiguration": {},
-                "enableNonSslPort": false,
-                "redisVersion": "4"
-            },
-            "tags": {
-                "[concat('hidden-link:', resourceGroup().id, '/providers/Microsoft.Cache/redis/', parameters('webAppName'))]": "Resource"
-            }
         }
     ]
 }
