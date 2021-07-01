@@ -7,21 +7,21 @@ on:
 
 
 env:
-  APPNAME: Choastrymeoutsample
+  APPNAME: chaostrymeoutsampled
   APPLICATIONPATH: Application
-  HOSTINGPLAN: Choastrymeoutsample
+  HOSTINGPLAN: chaostrymeoutsampled
   DOCKERFILEPATH: "Application"
   REGISTRYSKU: "Standard"
-  REGISTRYNAME: "Choastrymeoutsampleacr"
+  REGISTRYNAME: "chaostrymeoutsampledacr"
   REGISTRYLOCATION: "West Europe"
-  IMAGENAME: "Choastrymeoutsample6a75"
-  RESOURCEGROUPNAME: Choastrymeoutsample-rg
+  IMAGENAME: "chaostrymeoutsampled6a75"
+  RESOURCEGROUPNAME: chaostrymeoutsampled-rg
   LOCATION: West Europe
   APPINSIGHTSLOCATION: West Europe
   SUBSCRIPTIONID: e0405662-5d40-4a9d-83c8-f7a279fbdbbc
   SKU: S1 Standard
   NODE_VERSION: 8.11.1
-  DATABASEACCOUNTID: "Choastrymeoutsample"
+  DATABASEACCOUNTID: "chaostrymeoutsampled"
   DATABASELOCATION: "westeurope"
 
 jobs:
