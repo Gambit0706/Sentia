@@ -18,7 +18,7 @@ env:
   RESOURCEGROUPNAME: sentiawebappassess-rg
   LOCATION: West Europe
   APPINSIGHTSLOCATION: West Europe
-  SUBSCRIPTIONID: e0405662-5d40-4a9d-83c8-f7a279fbdbbc
+  SUBSCRIPTIONID: xxxxx-xxxx-xxxx-xxx-xxxxxxxxxxxx
   SKU: S1 Standard
   NODE_VERSION: 8.11.1
   DATABASEACCOUNTID: "sentiawebappassess"
