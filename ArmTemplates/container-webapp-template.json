@@ -30,9 +30,6 @@
         "registryLocation": {
             "type": "String"
         },
-        "cacheName": {
-            "type": "String"
-        },
         "registrySku": {
             "defaultValue": "Standard",
             "type": "String"
