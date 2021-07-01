@@ -23,7 +23,7 @@ For development, you will need Node.js and a node global package
  - #### Clone this repository  
 
 ```bash
-    $ git clone https://github.com/https://github.com/Gambit0706/Sentia.git
+    $ git clone https://github.com/Gambit0706/Sentia.git
 ```
 
 - #### Install dependencies
