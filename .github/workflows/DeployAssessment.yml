@@ -29,7 +29,7 @@ jobs:
     name: Build and push Application to ACR
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
 
     - name: Azure authentication
       uses: azure/login@v1
@@ -37,7 +37,7 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     # Deploy Arm template
-    - name: Deploy ARM Template
+    - name: Create Auzre Resource Group
       uses: azure/CLI@v1
       continue-on-error: false
       with:
@@ -74,11 +74,11 @@ jobs:
         docker push ${{ env.REGISTRYNAME }}.azurecr.io/${{ env.IMAGENAME }}:${{ github.sha }}  
 
   deploy:
-    name: Deploy application to AKS
+    name: Deploy application to ACI
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
 
     - name: Azure authentication
       uses: azure/login@v1
