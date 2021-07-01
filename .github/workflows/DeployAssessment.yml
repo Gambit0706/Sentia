@@ -26,7 +26,6 @@ env:
   CACHENAME: "sentiawebappassess"
   FRONTDOORNAME: "sentiawebappassess"
   BACKENDADRESS: "sentiawebappassess..azurewebsites.net"
-  CACHENAME: "sentiawebappassess"
   CDNNAME: "sentiawebappassess"
 
 jobs:
